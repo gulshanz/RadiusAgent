@@ -1,0 +1,12 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFacilities">
+
+    <fragment
+        android:id="@+id/listFacilities"
+        android:name="taksande.gulshan.radiusagent.ui.views.ListFacilities"
+        android:label="fragment_list_facilities"
+        tools:layout="@layout/fragment_list_facilities" />
+</navigation>
